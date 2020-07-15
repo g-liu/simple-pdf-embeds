@@ -22,7 +22,7 @@ if ( ! function_exists( 'spe_register_pdf_block' ) ) {
             'name'            => 'pdf-embed',
             'title'           => __( 'PDF' ),
             'description'     => __( 'Displays an embedded PDF using the browser\'s PDF renderer' ),
-            'render_template' => 'pdf-embed.php',
+            'render_template' => plugin_dir_path( __FILE__ ) . 'pdf-embed.php',
             'category'        => 'embed',
             'icon'            => 'media-document',
             'keywords'        => array( 'pdf', 'document', 'embed' ),
